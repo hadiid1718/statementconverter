@@ -1,0 +1,19 @@
+/* @import '../src//styles/custom.css'; */
+/* If Tailwind is not set up, remove these directives and use standard CSS or ensure Tailwind is installed and configured */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic fallback styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
