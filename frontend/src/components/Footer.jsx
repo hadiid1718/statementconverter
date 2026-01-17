@@ -13,7 +13,6 @@ const Footer = () => {
   return (
     <div style={footerStyle}>
       <p style={{ margin: '0' }}>Copyright © 2025. All Rights Reserved.</p>
-      <p style={{ margin: '5px 0 0 0', color: '#666' }}>Developed By Mujeeb Ahmed</p>
     </div>
   )
 }

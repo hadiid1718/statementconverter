@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
      <>
-     <div>
+     <div className='m-7'>
       <HeroSection/>
       <Cards/>
       <MoreInfo/>
