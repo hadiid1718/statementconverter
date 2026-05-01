@@ -19,12 +19,13 @@ const Navbar = () => {
       <div>
         <nav className="flex justify-between px-4 py-3 mt-1 border-b border-gray-200 ">
           <Link to="/" className="text-xl font-semibold lg:text-xl">
-            Bank Statement Converter
+            Ledgify
           </Link>
 
           {user ? (
             <div className="hidden lg:flex items-center gap-4 ">
               <Link onClick={logout}>Logout</Link>
+              <Link to='/dashboard'>Dashboard</Link>
 
             </div>
           ) : (
@@ -37,6 +38,7 @@ const Navbar = () => {
               >
                 Admin
               </Link>
+
             </div>
           )}
 
